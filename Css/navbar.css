@@ -1,0 +1,45 @@
+a
+{
+    color: #4195b4;
+    text-decoration: none;
+}
+
+.option
+{
+    color: #4195b4;
+}
+
+nav
+{
+    font: 100% sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+nav li {
+    display: block;
+}
+
+.navbar-hover .options-container 
+{
+    display: flex;
+}
+
+.navbar-hover .option 
+{
+    width: 100%;
+}
+
+
+.navbar-hover .option ul 
+{
+    display: none;
+    padding: 0;
+    background-color: white;
+    position: relative;
+}
+
+.navbar-hover .option:hover ul 
+{
+    display: block;
+}

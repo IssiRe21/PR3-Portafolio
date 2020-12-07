@@ -1,0 +1,22 @@
+#after{
+    text-align: center;
+}
+
+#after img{
+    height: 150px;
+    width: 150px;
+}
+
+.container {
+    display: grid;
+
+    height: 600px;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+#video{
+    grid-column: 2;
+    text-align: center;
+}

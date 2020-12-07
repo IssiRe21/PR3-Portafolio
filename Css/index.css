@@ -1,0 +1,21 @@
+
+.container {
+    display: grid;
+
+    height: 600px;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.text{
+    grid-column: 2;
+}
+
+.info
+{
+    grid-column: 2;
+    background-color: white;
+    color: #4195b4;
+    text-align: center;
+}

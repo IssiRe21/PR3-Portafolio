@@ -1,0 +1,39 @@
+#illustrator{
+    text-align: center;
+}
+
+#illustrator img{
+    height: 150px;
+    width: 150px;
+}
+
+.container {
+    display: grid;
+
+    height: 600px;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+#infografia{
+    grid-column: 2;
+    text-align: center;
+    
+}
+
+#logos{
+
+    grid-column: 2;
+    text-align: center;
+}
+
+#infografia img{
+    height: 600px;
+    width: auto;
+}
+
+#logos img{
+    height: 600px;
+    width: auto;
+}
